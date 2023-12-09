@@ -72,6 +72,7 @@ public class IncogNewAmazonAddCart {
         System.out.println("title 6 click product : " + title6);
         //click on product
 	    
+        //comment added to check conflict on git
 	    driver.findElement(By.xpath("/html/body/div[1]/div[3]/div/div[2]/div/div/div[2]/div/div[2]/ul/li[1]/span/div/div[1]/a/div")).click();
 	    String title7 = driver.getTitle();
         System.out.println("title 7 select product click : " + title7);
