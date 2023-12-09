@@ -17,6 +17,7 @@ public class IncogNewAmazonAddCart {
 		// configure options parameter to Chrome driver
 		// Chrome Options class is used to manipulate various properties of Chrome driver
 		
+		
 		op.addArguments("--incognito");
 		
 		// add Incognito parameter
@@ -75,6 +76,7 @@ public class IncogNewAmazonAddCart {
 	    String title7 = driver.getTitle();
         System.out.println("title 7 select product click : " + title7);
 	    //select on product and click on
+        //System.out.println("title 7 select product click : " + title7);
         
         
 	    driver.findElement(By.xpath("/html/body/div[2]/div[2]/div[5]/div[3]/div[1]/div[3]/div/div[1]/div/div/div/form/div/div/div/div/div[3]/div/div[35]/div[1]/span/span/span/input")).click();
